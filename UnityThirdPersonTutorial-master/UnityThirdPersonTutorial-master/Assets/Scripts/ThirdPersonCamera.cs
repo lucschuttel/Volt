@@ -121,8 +121,6 @@ public class ThirdPersonCamera : MonoBehaviour
 	private Vector3 savedRigToGoal;
 	private float distanceAwayFree;
 	private float distanceUpFree;	
-	private Vector2 rightStickPrevFrame = Vector2.zero;
-	private float lastStickMin = float.PositiveInfinity;	// Used to prevent from zooming in when holding back on the right stick/scrollwheel
 	private Vector3 nearClipDimensions = Vector3.zero; // width, height, radius
 	private Vector3[] viewFrustum;
 	private Vector3 characterOffset;
@@ -395,30 +393,6 @@ public class ThirdPersonCamera : MonoBehaviour
 				Vector3 rigToGoal = characterOffset - cameraXform.position;
 				rigToGoal.y = 0f;
 				Debug.DrawRay(cameraXform.transform.position, rigToGoal, Color.red);
-				
-				// Panning in and out
-				// If statement works for positive values; don't tween if stick not increasing in either direction; also don't tween if user is rotating
-				// Checked against rightStickThreshold because very small values for rightY mess up the Lerp function
-				
-
-				/*if (rightY < lastStickMin && rightY < -1f * rightStickThreshold && rightY <= rightStickPrevFrame.y && Mathf.Abs(rightX) < rightStickThreshold)
-				{
-					// Zooming out
-					distanceUpFree = Mathf.Lerp(distanceUp, distanceUp * distanceUpMultiplier, Mathf.Abs(rightY));
-					distanceAwayFree = Mathf.Lerp(distanceAway, distanceAway * distanceAwayMultipler, Mathf.Abs(rightY));
-					targetPosition = characterOffset + followXform.up * distanceUpFree - RigToGoalDirection * distanceAwayFree;
-					lastStickMin = rightY;
-                }
-				else if (rightY > rightStickThreshold && rightY >= rightStickPrevFrame.y && Mathf.Abs(rightX) < rightStickThreshold)
-				{
-                	// Zooming in
-                	// Subtract height of camera from height of player to find Y distance
-					distanceUpFree = Mathf.Lerp(Mathf.Abs(transform.position.y - characterOffset.y), camMinDistFromChar.y, rightY);
-					// Use magnitude function to find X distance	
-					distanceAwayFree = Mathf.Lerp(rigToGoal.magnitude, camMinDistFromChar.x, rightY);		
-					targetPosition = characterOffset + followXform.up * distanceUpFree - RigToGoalDirection * distanceAwayFree;		
-					lastStickMin = float.PositiveInfinity;
-				}		*/		
                                 
 				// Store direction only if right stick inactive
 				if (rightX != 0 || rightY != 0)
@@ -445,7 +419,6 @@ public class ThirdPersonCamera : MonoBehaviour
 		transform.LookAt(lookAt);	
 
 		// Make sure to cache the unscaled mouse wheel value if using mouse/keyboard instead of controller
-		rightStickPrevFrame = new Vector2(rightX, rightY);//mouseWheel != 0 ? mouseWheelScaled : rightY);
 	}
 	
 	#endregion

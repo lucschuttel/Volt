@@ -2559,6 +2559,14 @@ Prefab:
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: e6e40eda5a3f31244baa1160274612a8, type: 2}
+      propertyPath: quality
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 11400002, guid: e6e40eda5a3f31244baa1160274612a8, type: 2}
+      propertyPath: bloomIntensity
+      value: .5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: e6e40eda5a3f31244baa1160274612a8, type: 2}
   m_RootGameObject: {fileID: 694687464}
