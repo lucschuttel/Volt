@@ -11,7 +11,7 @@ public class GeneratorController : MonoBehaviour {
 	void Start () {
 		player = GameObject.FindGameObjectWithTag ("Player");
 		camera = GameObject.FindGameObjectWithTag ("MainCamera");
-		range = 5;
+		range = 3;
 		angle = 80;
 	}
 	
