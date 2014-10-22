@@ -22,6 +22,7 @@
 
 using UnityEngine;
 using System.Collections;
+using System.Collections.Generic;
 
 /// <summary>
 /// #DESCRIPTION OF CLASS#
@@ -105,11 +106,41 @@ public class CharacterControllerLogic : MonoBehaviour
 	/// <summary>
 	/// Use this for initialization.
 	/// </summary>
+	GameObject player;
+	public GameObject prefab;
+	public List<GameObject> ropeList;
+
 	void Start() 
 	{
 		animator = GetComponent<Animator>();
 		capCollider = GetComponent<CapsuleCollider>();
 		capsuleHeight = capCollider.height;
+
+		float rope_position = -1;
+		player = GameObject.FindGameObjectWithTag("Player");
+		ropeList = new List<GameObject>();
+		for (int i = 0; i < 50; i++) {
+			ropeList.Add(GameObject.CreatePrimitive(PrimitiveType.Sphere));
+			ropeList[i].transform.position = player.transform.position;
+			Vector3 temp = new Vector3(0,0,0f+rope_position);
+			rope_position = rope_position - 0.3f;
+			ropeList[i].transform.position += temp;
+			ropeList[i].AddComponent<Rigidbody>();
+			ropeList[i].AddComponent<HingeJoint>();
+			ropeList[i].rigidbody.hingeJoint.useSpring = true;
+			ropeList[i].transform.localScale = new Vector3(0.3f, 0.3f, 0.3f);
+//			Vector3 temp2 = new Vector3(0,0,90f);
+//			ropeList[i].transform.Rotate += temp2; 
+			if(i == 0){
+				ropeList[i].rigidbody.hingeJoint.connectedBody = player.rigidbody;
+			}
+			else{
+				ropeList[i].rigidbody.hingeJoint.connectedBody = ropeList[i-1].rigidbody;
+			}
+		}
+	
+
+
 
 		if(animator.layerCount >= 2)
 		{

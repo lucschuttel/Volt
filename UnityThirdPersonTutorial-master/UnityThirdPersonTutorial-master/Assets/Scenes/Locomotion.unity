@@ -4184,6 +4184,8 @@ MonoBehaviour:
   jumpMultiplier: .200000003
   capCollider: {fileID: 0}
   jumpDist: 3
+  prefab: {fileID: 0}
+  ropeList: []
 --- !u!114 &2095473836
 MonoBehaviour:
   m_ObjectHideFlags: 0
