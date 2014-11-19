@@ -28,10 +28,11 @@ public class DoorAnimation : MonoBehaviour {
 		}
 		
 		if (doorOpening) {
-			//Turning the door with rotationspeed, completed rotation houd bij hoe far de door has geturned.
+			//Deur draaien met rotationSpeed, completedRotation houdt bij hoe ver de deur heeft gedraaid.
 			door.transform.Rotate(0,rotationSpeed,0);
 			completedRotation += rotationSpeed;
-			//Voor negatieve en positieve rotationspeed, de deur niet meer open laten gaan en de deur is dan open.
+			//Als de rotatie groter is dan de angle van de deur, stopt de deur met draaien
+
 			if (rotationSpeed >= 0){
 				if (completedRotation >= doorAngle){
 					doorOpening = !doorOpening;
