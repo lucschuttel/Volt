@@ -5366,6 +5366,10 @@ Prefab:
       propertyPath: m_Name
       value: CameraRig
       objectReference: {fileID: 0}
+    - target: {fileID: 11400008, guid: c0ae6a5981942fd49a3b2a6676a86064, type: 2}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: c0ae6a5981942fd49a3b2a6676a86064, type: 2}
   m_RootGameObject: {fileID: 1419901158}
@@ -6477,6 +6481,7 @@ GameObject:
   - 114: {fileID: 1690363841}
   - 114: {fileID: 1690363840}
   - 114: {fileID: 1690363839}
+  - 114: {fileID: 1690363848}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -6689,6 +6694,18 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: .0219999999
+--- !u!114 &1690363848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1690363837}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fd1950b4584c4f48b006f5e864c9408, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  posCamera: {x: 0, y: 0, z: 0}
 --- !u!1 &1703507552
 GameObject:
   m_ObjectHideFlags: 0
