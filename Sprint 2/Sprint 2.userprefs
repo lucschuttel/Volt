@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\DoorAnimation.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Rope\RopeScript.cs">
     <Files>
-      <File FileName="Assets\Scripts\DoorAnimation.cs" Line="35" Column="1" />
+      <File FileName="Assets\Rope\RopeScript.cs" Line="30" Column="60" />
+      <File FileName="Assets\Scripts\GeneratorController.cs" Line="20" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
