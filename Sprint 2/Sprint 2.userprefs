@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Rope\RopeScript.cs">
     <Files>
+      <File FileName="Assets\Scripts\SwitchScript.cs" Line="1" Column="1" />
       <File FileName="Assets\Rope\RopeScript.cs" Line="30" Column="60" />
-      <File FileName="Assets\Scripts\GeneratorController.cs" Line="20" Column="3" />
+      <File FileName="Assets\Scripts\GeneratorController.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
