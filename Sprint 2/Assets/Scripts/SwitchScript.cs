@@ -44,14 +44,14 @@ public class SwitchScript : MonoBehaviour {
 		{
 
 			if (switchType == "Light"){
-				if (Input.GetKeyDown ("t") && (GameVariables.playerHasPower || pluggedIn)) {
+				if (Input.GetKeyDown ("t") && (/* GameVariables.playerHasPower || */ pluggedIn)) {
 					pluggedIn = !pluggedIn;
 					SwitchLights();
 				}
 			}
 			
 			if (switchType == "Door"){
-				if (Input.GetKeyDown ("t") && (GameVariables.playerHasPower || pluggedIn)) {
+				if (Input.GetKeyDown ("t") && (/* GameVariables.playerHasPower || */ pluggedIn)) {
 					pluggedIn = !pluggedIn;
 					doorOpen = !doorOpen;
 				}
@@ -74,7 +74,7 @@ public class SwitchScript : MonoBehaviour {
 		foreach (Light light in lights) 
 		{
 			light.enabled = !light.enabled;
-			GameVariables.playerHasPower = !GameVariables.playerHasPower;
+			/* GameVariables.playerHasPower = !GameVariables.playerHasPower; */
 		}
 	}
 
