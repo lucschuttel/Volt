@@ -4,6 +4,8 @@
 TagManager:
   tags:
   - Generator
+  - Liftdoor_Right
+  - Liftdoor_Left
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX

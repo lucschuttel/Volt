@@ -12,8 +12,11 @@ public class SwitchScript : MonoBehaviour {
 	private GameObject[] doors;
 	public string switchType;
 	public GameObject lightParent;
+	public GameObject liftDoorLeft, liftDoorRight;
 	public string doorTag;
 	public int doorOpeningHeight;
+	float doorstartright;
+	float doorstartleft;
 
 	// Use this for initialization
 	void Start () {
@@ -34,6 +37,15 @@ public class SwitchScript : MonoBehaviour {
 		if (switchType == "Door" && doorTag != null) {
 			doors = GameObject.FindGameObjectsWithTag(doorTag);
 		}
+
+		if (switchType == "Liftdoor") {
+			liftDoorLeft = GameObject.FindGameObjectWithTag ("Liftdoor_Left");
+			doorstartleft = liftDoorLeft.transform.position.z;
+			liftDoorRight = GameObject.FindGameObjectWithTag ("Liftdoor_Right");
+			doorstartright = liftDoorRight.transform.position.z;
+
+		}
+
 	}
 	
 	// Update is called once per frame
@@ -67,6 +79,17 @@ public class SwitchScript : MonoBehaviour {
 					}
 				}
 			}
+
+			if (switchType == "Liftdoor"){
+				if (Input.GetKeyDown ("t")) {
+					doorOpen = !doorOpen;
+				}
+				
+				if (doorOpen){
+
+					SwitchLiftDoor();
+				}
+			}
 		}
 	}
 
@@ -85,4 +108,15 @@ public class SwitchScript : MonoBehaviour {
 			}
 		}
 	}
-}
+
+	void SwitchLiftDoor(){
+		if (liftDoorLeft.transform.position.z >= doorstartleft + 1f)
+						liftDoorLeft.transform.Translate (0, 0, 0);
+		else 		liftDoorLeft.transform.Translate(0,0,0.1f);
+
+		if (liftDoorRight.transform.position.z <= doorstartright - 1)
+			liftDoorRight.transform.Translate (0, 0, 0);
+		else liftDoorRight.transform.Translate(0,0,-0.1f);
+
+		}
+	}
