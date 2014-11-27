@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Sprint 2\Assets\Scripts\GeneratorController.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\Sprint 2\Assets\Scripts\BoxScript.cs">
     <Files>
-      <File FileName="..\..\Sprint 2\Assets\Scripts\SwitchScript.cs" Line="123" Column="1" />
-      <File FileName="..\..\Sprint 2\Assets\Scripts\GeneratorController.cs" Line="14" Column="12" />
+      <File FileName="..\..\Sprint 2\Assets\Scripts\SwitchScript.cs" Line="106" Column="100" />
+      <File FileName="..\..\Sprint 2\Assets\Scripts\BoxScript.cs" Line="8" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

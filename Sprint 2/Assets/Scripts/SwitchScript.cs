@@ -63,7 +63,7 @@ public class SwitchScript : MonoBehaviour {
 			}
 			
 			if (switchType == "Door"){
-				if (Input.GetKeyDown ("t") && (/* GameVariables.playerHasPower || */ pluggedIn)) {
+				if (Input.GetKeyDown ("t")/* && ( GameVariables.playerHasPower ||  pluggedIn)*/) {
 					pluggedIn = !pluggedIn;
 					doorOpen = !doorOpen;
 				}

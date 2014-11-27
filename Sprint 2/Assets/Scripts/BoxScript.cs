@@ -11,7 +11,7 @@ public class BoxScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		player = GameObject.FindGameObjectWithTag ("Player");
-		range = 1;
+		range = 3;
 		pickedUp = false;
 	}
 	
