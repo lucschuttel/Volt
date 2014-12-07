@@ -212,16 +212,16 @@ public class QuickRope2 : MonoBehaviour
     public float breakTorque = Mathf.Infinity;
 
     public int solverOverride = -1;
-    #endregion
-
+#endregion
+	public static float currentVelocity = 0;
     #region CONTROLLER VARIABLES
     private float distBetweenJoints = 0;
-    private float currentVelocity = 0;
-
-    public bool enableRopeController = false;
+    //public static float currentVelocity = 0;
+	public float acceleration = 10;
+    public bool enableRopeController = true;
     public KeyCode extendRopeKey = KeyCode.DownArrow;
     public KeyCode retractRopeKey = KeyCode.UpArrow;
-    public float acceleration = 10;
+
     public float dampening = 0.96f;
     public float sleepVelocity = 0.5f;
     public float minRopeLength = 5;
