@@ -7,6 +7,7 @@ public class PickupExtender : MonoBehaviour {
 	void OnTriggerEnter(Collider collider){
 		if (collider.gameObject.tag == "Player") {
 			QuickRope2.currentVelocity += LengthAddition;
+			InventoryScript.AddItem("extender");
 			Destroy (gameObject);
 		}
 	}
