@@ -13,14 +13,15 @@ public class InventoryScript : MonoBehaviour {
 		inventoryContents.Add (identifier);
 	}
 
-	public static void RemoveItem(string identifier){
+	public static bool UseItem(string identifier){
 		for(int i = 0; i < inventoryContents.Count; i++)
 		{
 			if(inventoryContents[i].Equals (identifier)){
 				inventoryContents.RemoveAt (i);
-				break;
+				return true;
 			}
 		}
+		return false;
 	}
 
 	void OnGUI() {
