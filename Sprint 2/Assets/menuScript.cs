@@ -25,7 +25,7 @@ public class menuScript : MonoBehaviour {
 			if(selected == 3) Application.Quit();
 		}
 		if (Input.GetKeyDown ("space") && menuState.Equals ("level")){
-			if(selected == 0) { currentLevel = 1; Application.LoadLevel("Sprint2");}
+			if(selected == 0) { currentLevel = 1; Application.LoadLevel("Level1");}
 			if(selected == 1 && (level2State.Equals ("cleared") || level2State.Equals ("open")) ) Application.LoadLevel("Sprint2");
 			if(selected == 2 && (level3State.Equals ("cleared") || level3State.Equals ("open")) ) Application.LoadLevel("Sprint2");		
 		}

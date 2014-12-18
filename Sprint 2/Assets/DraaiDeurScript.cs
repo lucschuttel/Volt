@@ -29,13 +29,13 @@ public class DraaiDeurScript : MonoBehaviour {
 				open = !open;
 				if(open){
 					//rotate the door to open from middle
-					transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y+90, transform.eulerAngles.z);
-					transform.position = new Vector3(transform.localPosition.x-1, transform.localPosition.y, transform.localPosition.z-1);
+					transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y-270, transform.eulerAngles.z);
+					transform.position = new Vector3(transform.localPosition.x+1, transform.localPosition.y, transform.localPosition.z-1);
 				}
 				else {
 					//rotate the door to closed from middle
-					transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y-90, transform.eulerAngles.z);
-					transform.position = new Vector3(transform.localPosition.x+1, transform.localPosition.y, transform.localPosition.z+1);
+					transform.eulerAngles = new Vector3(transform.eulerAngles.x, transform.eulerAngles.y+270, transform.eulerAngles.z);
+					transform.position = new Vector3(transform.localPosition.x-1, transform.localPosition.y, transform.localPosition.z+1);
 				}
 			}
 		}
