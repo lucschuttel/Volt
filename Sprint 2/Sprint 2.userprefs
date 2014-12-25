@@ -1,14 +1,18 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\PickupExtender.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ThirdPersonCameraEditor.cs">
     <Files>
-      <File FileName="Assets\Scripts\GeneratorController.cs" Line="20" Column="1" />
+      <File FileName="Assets\menuScript.cs" Line="28" Column="42" />
+      <File FileName="Assets\Scripts\GeneratorController.cs" Line="1" Column="1" />
       <File FileName="Assets\PlayerMovementScript.cs" Line="1" Column="1" />
       <File FileName="Assets\NewCameraFollowPlayer.cs" Line="1" Column="1" />
       <File FileName="Assets\DraaiDeurScript.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PickupExtender.cs" Line="10" Column="54" />
-      <File FileName="Assets\Scripts\KeyItem.cs" Line="7" Column="1" />
-      <File FileName="Assets\clearInvisibleBlock.cs" Line="15" Column="4" />
+      <File FileName="Assets\Scripts\PickupExtender.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\KeyItem.cs" Line="1" Column="1" />
+      <File FileName="Assets\clearInvisibleBlock.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ThirdPersonCamera.cs" Line="233" Column="128" />
+      <File FileName="Assets\Scripts\FPCam.cs" Line="39" Column="1" />
+      <File FileName="Assets\Scripts\ThirdPersonCameraEditor.cs" Line="3" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

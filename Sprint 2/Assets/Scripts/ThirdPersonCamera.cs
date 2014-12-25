@@ -21,7 +21,7 @@
 /// </summary>
 using UnityEngine;
 using System.Collections;
-using UnityEditor;
+//using UnityEditor;
 
 
 /// <summary>
@@ -230,17 +230,17 @@ public class ThirdPersonCamera : MonoBehaviour
 	{
 		
 	}
-	
+	//////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	/// <summary>
 	/// Debugging information should be put here.
 	/// </summary>
-	void OnDrawGizmos ()
-	{	
-		if (EditorApplication.isPlaying && !EditorApplication.isPaused)
-		{			
-			DebugDraw.DrawDebugFrustum(viewFrustum);
-		}
-	}
+//	void OnDrawGizmos ()
+	//{	
+	//	if (EditorApplication.isPlaying && !EditorApplication.isPaused)
+	//	{			
+	//		DebugDraw.DrawDebugFrustum(viewFrustum);
+//}
+	//}
 	
 	void LateUpdate()
 	{		
