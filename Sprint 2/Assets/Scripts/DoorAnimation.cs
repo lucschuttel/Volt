@@ -22,8 +22,7 @@ public class DoorAnimation : MonoBehaviour {
 		playerPos = player.transform.position;
 		
 		if (Vector3.Distance (playerPos, this.transform.position) < range) {
-			if (Input.GetKeyDown ("t") && InventoryScript.UseItem("key")) {
-					GameVariables.keyCount-=1;
+			if (Input.GetKeyDown ("t")) {
 					doorOpening = !doorOpening;
 				}
 			}
