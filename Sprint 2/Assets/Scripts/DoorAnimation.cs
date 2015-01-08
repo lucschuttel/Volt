@@ -22,28 +22,29 @@ public class DoorAnimation : MonoBehaviour {
 		playerPos = player.transform.position;
 		
 		if (Vector3.Distance (playerPos, this.transform.position) < range) {
-			if (Input.GetKeyDown ("t") && (GameVariables.keyCount > 0)) {
-				doorOpening = !doorOpening;
-			}
-		}
-		
-		if (doorOpening) {
-			//Deur draaien met rotationSpeed, completedRotation houdt bij hoe ver de deur heeft gedraaid.
-			door.transform.Rotate(0,rotationSpeed,0);
-			completedRotation += rotationSpeed;
-			//Als de rotatie groter is dan de angle van de deur, stopt de deur met draaien
-
-			if (rotationSpeed >= 0){
-				if (completedRotation >= doorAngle){
+			if (Input.GetKeyDown ("t") && InventoryScript.UseItem("key")) {
+					GameVariables.keyCount-=1;
 					doorOpening = !doorOpening;
-					doorOpen = !doorOpen;
 				}
-			} else {
-				if (completedRotation <= doorAngle){
-					doorOpening = !doorOpening;
-					doorOpen = !doorOpen;
+			}
+			
+			if (doorOpening) {
+				//Deur draaien met rotationSpeed, completedRotation houdt bij hoe ver de deur heeft gedraaid.
+				door.transform.Rotate(0,rotationSpeed,0);
+				completedRotation += rotationSpeed;
+				//Als de rotatie groter is dan de angle van de deur, stopt de deur met draaien
+				
+				if (rotationSpeed >= 0){
+					if (completedRotation >= doorAngle){
+						doorOpening = !doorOpening;
+						doorOpen = !doorOpen;
+					}
+				} else {
+					if (completedRotation <= doorAngle){
+						doorOpening = !doorOpening;
+						doorOpen = !doorOpen;
+					}
 				}
 			}
 		}
 	}
-}
