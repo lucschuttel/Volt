@@ -7,11 +7,11 @@ public class DoorAnimation : MonoBehaviour {
 	Vector3 playerPos;
 	int range = 3;
 	GameObject player;
-	public int doorAngle;
+	public int doorAngle = -90;
 	private bool doorOpening, doorOpen;
 	private float completedRotation;
 	public GameObject door;
-	public int rotationSpeed;
+	public int rotationSpeed = -5;
 	
 	void Start () {
 		player = GameObject.FindGameObjectWithTag ("Player");
