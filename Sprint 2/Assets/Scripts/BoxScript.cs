@@ -11,7 +11,7 @@ public class BoxScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		player = GameObject.FindGameObjectWithTag ("Player");
-		range = 3;
+		range = 2;
 		pickedUp = false;
 	}
 	
@@ -26,6 +26,11 @@ public class BoxScript : MonoBehaviour {
 
 		if (pickedUp){
 			this.transform.position = player.transform.position + posDifference;
+			rigidbody.useGravity = false;
+			rigidbody.isKinematic = true;
+		} else {
+			rigidbody.useGravity = true;
+			rigidbody.isKinematic = false;
 		}
 	}
 }
