@@ -6,7 +6,10 @@ public class CamSwitcher : MonoBehaviour {
 	
 	public Camera CameraRig;
 	public Camera topdowncam;
-	public int camcount;
+	public int camcount, roofObjectCount;
+	public GameObject roofObject1; 
+	public GameObject roofObject2;
+	public GameObject roofObject3;
 	
 	void Start () {
 		
@@ -15,6 +18,9 @@ public class CamSwitcher : MonoBehaviour {
 		int camcount = 0;
 		CameraRig.enabled = true;
 		topdowncam.enabled = false;
+		roofObject1.active = true;
+		roofObject2.active = true;
+		roofObject3.active = true;
 	}
 	
 	void Update () {
@@ -22,12 +28,19 @@ public class CamSwitcher : MonoBehaviour {
 		if (Input.GetKeyDown(KeyCode.C)) {
 			camcount++;
 			if (camcount == 0){
-				CameraRig.enabled = !CameraRig.enabled;}
-			else if (camcount ==1){
-				topdowncam.enabled = !topdowncam.enabled;}
-			if (camcount == 2) {
-				camcount = 0;		
+				CameraRig.enabled = true;
+				topdowncam.enabled = false;
+				roofObject1.active = true; roofObject2.active = true; roofObject3.active = true;
 			}
+			if (camcount == 1){
+				topdowncam.enabled = true;
+				CameraRig.enabled = false;
+				roofObject1.active = false; roofObject2.active = false;	roofObject3.active = false;
+			}
+			if (camcount == 2) {
+				camcount = -1;		
+			}
+			
 		}
 		
 	}
