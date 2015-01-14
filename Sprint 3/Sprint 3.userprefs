@@ -1,8 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\SlideDoor.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ElevatorDoor.cs">
     <Files>
-      <File FileName="Assets\Scripts\SlideDoor.cs" Line="27" Column="4" />
+      <File FileName="Assets\Scripts\LightScript.cs" Line="64" Column="1" />
+      <File FileName="Assets\Scripts\SlideDoor.cs" Line="39" Column="56" />
+      <File FileName="Assets\Scripts\ElevatorDoor.cs" Line="44" Column="56" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

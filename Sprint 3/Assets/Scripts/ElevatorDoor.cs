@@ -5,7 +5,7 @@ public class ElevatorDoor : MonoBehaviour {
 
 	private GameObject liftDoorLeft, liftDoorRight, player, ropeEnd;
 	private float doorstartright, doorstartleft, range;
-	private bool doorOpen;
+	private bool doorOpen, pluggedIn;
 
 	void Start () {
 		doorOpen = false;
@@ -21,7 +21,7 @@ public class ElevatorDoor : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyDown ("t") && Vector3.Distance (player.transform.position, this.transform.position) < range) {
 			doorOpen = !doorOpen;
-			PlugIn();
+			pluggedIn = !pluggedIn;
 		}
 
 		if (doorOpen) {
@@ -35,11 +35,13 @@ public class ElevatorDoor : MonoBehaviour {
 			else 
 				liftDoorRight.transform.Translate(0,0,-0.1f);
 		}
-	}
 
-	void PlugIn(){
-		ropeEnd = GameObject.FindGameObjectWithTag ("RopeEnd");
-		ropeEnd.transform.position = this.transform.position;
-		//GameVariables.pluggedIn = true;
+		if (pluggedIn) {
+			ropeEnd.transform.position = this.transform.position;
+			ropeEnd.hingeJoint.connectedBody = this.rigidbody;
+		} else {
+			ropeEnd.rigidbody.useGravity = false;
+			ropeEnd.hingeJoint.connectedBody = player.rigidbody;
+		}
 	}
 }

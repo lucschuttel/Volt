@@ -436,6 +436,10 @@ MonoBehaviour:
   CameraRig: {fileID: 1912905650}
   topdowncam: {fileID: 0}
   camcount: 0
+  roofObjectCount: 0
+  roofObject1: {fileID: 0}
+  roofObject2: {fileID: 0}
+  roofObject3: {fileID: 0}
 --- !u!114 &57605586
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2018,7 +2022,7 @@ GameObject:
   - 23: {fileID: 615004909}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Liftdoor_Left
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3099,7 +3103,7 @@ GameObject:
   - 23: {fileID: 913840449}
   m_Layer: 0
   m_Name: Cube
-  m_TagString: Untagged
+  m_TagString: Liftdoor_Right
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
