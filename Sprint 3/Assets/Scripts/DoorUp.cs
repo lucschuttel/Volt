@@ -2,15 +2,13 @@
 using System.Collections;
 
 public class DoorUp : MonoBehaviour {
-	
-	private bool doorOpen, pluggedIn;
+
 	public float openingHeight;
 	private float startPosition, range;
-	private GameObject player, ropeEnd, door2;
+	private GameObject door2;
 	
 	void Start () {
 		startPosition = transform.position.y;
-		player = GameObject.FindGameObjectWithTag ("Player");
 		door2 = GameObject.Find ("DoorUp");
 		range = 3;
 	}
