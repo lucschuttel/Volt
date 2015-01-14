@@ -2,34 +2,41 @@
 using System.Collections;
 
 public class SlideDoor : MonoBehaviour {
-
-	private bool doorOpen;
+	
+	private bool doorOpen, pluggedIn;
 	public float openingHeight;
 	private float startPosition, range;
-	private GameObject player;
+	private GameObject player, ropeEnd, door;
 	
 	void Start () {
 		startPosition = transform.position.y;
 		player = GameObject.FindGameObjectWithTag ("Player");
-		range = 5;
+		ropeEnd = GameObject.FindGameObjectWithTag ("RopeEnd");
+		door = transform.FindChild ("Door").gameObject;
+		range = 3;
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		if (Input.GetKeyDown ("t") && Vector3.Distance(player.transform.position, this.transform.position) < range) {
-			//pluggedIn = !pluggedIn;
+			pluggedIn = !pluggedIn;
 			doorOpen = !doorOpen;
-			}
-
-		if (doorOpen) {
-			rigidbody.useGravity = false;
-			range = 5;
-			if (transform.position.y < startPosition + openingHeight) {
-					transform.Translate (Vector3.up * Time.deltaTime);
+		}
+		
+		if (pluggedIn) {
+			ropeEnd.transform.position = this.transform.position;
+			ropeEnd.hingeJoint.connectedBody = this.rigidbody;
+			
+			if (doorOpen) {
+				door.rigidbody.useGravity = false;
+				if (door.transform.position.y < startPosition + openingHeight) {
+					door.transform.Translate (Vector3.up * Time.deltaTime);
+				}
 			}
 		} else {
-			rigidbody.useGravity = true;
-			range = 10;
+			door.rigidbody.useGravity = true;
+			ropeEnd.rigidbody.useGravity = false;
+			ropeEnd.hingeJoint.connectedBody = player.rigidbody;
 		}
 	}
 }
