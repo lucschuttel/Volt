@@ -6,13 +6,13 @@ public class SlideDoor : MonoBehaviour {
 	private bool doorOpen, pluggedIn;
 	public float openingHeight;
 	private float startPosition, range;
-	private GameObject player, ropeEnd, door;
+	private GameObject player, ropeEnd, door2;
 	
 	void Start () {
 		startPosition = transform.position.y;
 		player = GameObject.FindGameObjectWithTag ("Player");
 		ropeEnd = GameObject.FindGameObjectWithTag ("RopeEnd");
-		door = transform.FindChild ("Door").gameObject;
+		door2 = transform.FindChild ("Door2").gameObject;
 		range = 3;
 	}
 	
@@ -28,13 +28,13 @@ public class SlideDoor : MonoBehaviour {
 			ropeEnd.hingeJoint.connectedBody = this.rigidbody;
 			
 			if (doorOpen) {
-				door.rigidbody.useGravity = false;
-				if (door.transform.position.y < startPosition + openingHeight) {
-					door.transform.Translate (Vector3.up * Time.deltaTime);
+				door2.rigidbody.useGravity = false;
+				if (door2.transform.position.y < startPosition + openingHeight) {
+					door2.transform.Translate (Vector3.up * Time.deltaTime);
 				}
 			}
 		} else {
-			door.rigidbody.useGravity = true;
+			door2.rigidbody.useGravity = true;
 			ropeEnd.rigidbody.useGravity = false;
 			ropeEnd.hingeJoint.connectedBody = player.rigidbody;
 		}
