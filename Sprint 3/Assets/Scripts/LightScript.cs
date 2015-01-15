@@ -10,14 +10,13 @@ public class LightScript : MonoBehaviour {
 	private Light[] lights;
 	public GameObject lightParent;
 	public GameObject targetObject;
-	private GameObject ropeEnd;
+
 	
 	// Use this for initialization
 	void Start () {
 		player = GameObject.FindGameObjectWithTag ("Player");
 		range = 3;
 		pluggedIn = false;
-		ropeEnd = GameObject.FindGameObjectWithTag ("RopeEnd");
 		
 		lights = lightParent.GetComponentsInChildren<Light> (true);
 		foreach (Light light in lights) 
@@ -41,13 +40,6 @@ public class LightScript : MonoBehaviour {
 				SwitchLights();
 			}
 			
-		}
-		
-		if (pluggedIn) {
-			ropeEnd.transform.position = this.transform.position;
-			ropeEnd.hingeJoint.connectedBody = this.rigidbody;
-		} else {
-			ropeEnd.hingeJoint.connectedBody = player.rigidbody;
 		}
 	}
 	
