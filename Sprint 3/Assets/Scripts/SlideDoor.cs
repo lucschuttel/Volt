@@ -35,8 +35,10 @@ public class SlideDoor : MonoBehaviour {
 			}
 		} else {
 			door2.rigidbody.useGravity = true;
-			ropeEnd.rigidbody.useGravity = false;
-			ropeEnd.hingeJoint.connectedBody = player.rigidbody;
+			if(ropeEnd.hingeJoint.connectedBody != player.rigidbody){
+				//ropeEnd.rigidbody.useGravity = false;
+				ropeEnd.hingeJoint.connectedBody = player.rigidbody;
+			}
 		}
 	}
 }
