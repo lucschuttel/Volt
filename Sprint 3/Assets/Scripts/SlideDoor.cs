@@ -12,7 +12,8 @@ public class SlideDoor : MonoBehaviour {
 		startPosition = transform.position.y;
 		player = GameObject.FindGameObjectWithTag ("Player");
 		ropeEnd = GameObject.FindGameObjectWithTag ("RopeEnd");
-		door2 = transform.FindChild ("Door2").gameObject;
+		//door2 = transform.FindChild ("Door2").gameObject;
+		door2 = GameObject.Find ("Door2");
 		range = 3;
 	}
 	
