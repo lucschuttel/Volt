@@ -11,10 +11,10 @@ public class BoxScript : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 		player = GameObject.FindGameObjectWithTag ("Player");
-		range = 2;
+		range = 4;
 		pickedUp = false;
 
-		collider.isTrigger = true;
+		//collider.isTrigger = true;
 	}
 	
 	// Update is called once per frame
@@ -29,10 +29,10 @@ public class BoxScript : MonoBehaviour {
 		if (pickedUp){
 			this.transform.position = player.transform.position + posDifference;
 			rigidbody.useGravity = false;
-			rigidbody.isKinematic = true;
+			//rigidbody.isKinematic = true;
 		} else {
 			rigidbody.useGravity = true;
-			rigidbody.isKinematic = false;
+			//rigidbody.isKinematic = false;
 		}
 	}
 }
