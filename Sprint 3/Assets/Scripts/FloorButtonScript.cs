@@ -29,11 +29,13 @@ public class FloorButtonScript : MonoBehaviour {
 	void SetButtonStatus(bool status){
 		if(status) {
 			turnedOn = true;
+			ButtonPress.doorOpen = 1;
 			//material.SetColor ("_SpecColor", Color.green);
 			floorButton.renderer.material.color = Color.green;
 
 		} else {
 			turnedOn = false;
+			ButtonPress.doorOpen = 0;
 			floorButton.renderer.material.color = Color.red;
 		}
 	}

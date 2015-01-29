@@ -74,6 +74,49 @@ NavMeshSettings:
     widthInaccuracy: 16.666666
     heightInaccuracy: 10
   m_NavMesh: {fileID: 0}
+--- !u!1 &564954
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 564955}
+  - 54: {fileID: 564956}
+  m_Layer: 0
+  m_Name: Jnt_23
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &564955
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 564954}
+  m_LocalRotation: {x: .0236931797, y: -.0071056569, z: -.000720477256, w: .999693811}
+  m_LocalPosition: {x: .00893103518, y: .0297208205, z: -6.92497635}
+  m_LocalScale: {x: 1, y: 1.00000012, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 22
+--- !u!54 &564956
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 564954}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &4950275
 GameObject:
   m_ObjectHideFlags: 0
@@ -101,49 +144,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1867129552}
   m_RootOrder: 0
---- !u!1 &7145283
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 7145284}
-  - 54: {fileID: 7145285}
-  m_Layer: 0
-  m_Name: Jnt_4
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &7145284
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 7145283}
-  m_LocalRotation: {x: -.00172680279, y: .000519864319, z: 6.60980368e-05, w: .99999845}
-  m_LocalPosition: {x: -.000767487451, y: -.0025492534, z: -1.20306659}
-  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 3
---- !u!54 &7145285
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 7145283}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &7396284
 GameObject:
   m_ObjectHideFlags: 0
@@ -876,7 +876,7 @@ Prefab:
     m_Modifications:
     - target: {fileID: 400010, guid: bea9dad0e2a10894db0d3ed2a5d4e50c, type: 2}
       propertyPath: m_LocalPosition.x
-      value: -4.32480001
+      value: -7.69750929
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: bea9dad0e2a10894db0d3ed2a5d4e50c, type: 2}
       propertyPath: m_LocalPosition.y
@@ -884,7 +884,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: bea9dad0e2a10894db0d3ed2a5d4e50c, type: 2}
       propertyPath: m_LocalPosition.z
-      value: -24.1100006
+      value: -29.0050621
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: bea9dad0e2a10894db0d3ed2a5d4e50c, type: 2}
       propertyPath: m_LocalRotation.x
@@ -951,49 +951,6 @@ Transform:
   - {fileID: 2089762979}
   m_Father: {fileID: 1490716069}
   m_RootOrder: 0
---- !u!1 &63600461
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 63600462}
-  - 54: {fileID: 63600463}
-  m_Layer: 0
-  m_Name: Jnt_32
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &63600462
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 63600461}
-  m_LocalRotation: {x: .129173577, y: .214352325, z: -.0016914818, w: .968175888}
-  m_LocalPosition: {x: .149555922, y: .489992231, z: -9.5279398}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 31
---- !u!54 &63600463
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 63600461}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &64750731
 GameObject:
   m_ObjectHideFlags: 0
@@ -1160,49 +1117,6 @@ Prefab:
   m_RootGameObject: {fileID: 608348768}
   m_IsPrefabParent: 0
   m_IsExploded: 1
---- !u!1 &83298516
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 83298517}
-  - 54: {fileID: 83298518}
-  m_Layer: 0
-  m_Name: Jnt_39
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &83298517
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 83298516}
-  m_LocalRotation: {x: .144771263, y: .6015172, z: -.0347209238, w: .784864843}
-  m_LocalPosition: {x: -1.74384105, y: 1.06682599, z: -10.1882076}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 38
---- !u!54 &83298518
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 83298516}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &93108615
 GameObject:
   m_ObjectHideFlags: 0
@@ -1424,49 +1338,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 98658708}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &99950630
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 99950631}
-  - 54: {fileID: 99950632}
-  m_Layer: 0
-  m_Name: Jnt_25
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &99950631
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 99950630}
-  m_LocalRotation: {x: .079014942, y: -.0236670822, z: -.00108057761, w: .996591926}
-  m_LocalPosition: {x: .0303229988, y: .100859709, z: -7.52052784}
-  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 24
---- !u!54 &99950632
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 99950630}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &101828004
 GameObject:
   m_ObjectHideFlags: 0
@@ -1522,49 +1393,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1847461917}
   m_RootOrder: 0
---- !u!1 &102603498
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 102603499}
-  - 54: {fileID: 102603500}
-  m_Layer: 0
-  m_Name: Jnt_17
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &102603499
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 102603498}
-  m_LocalRotation: {x: .00207134988, y: -.000622398744, z: -7.67395395e-05, w: .999997735}
-  m_LocalPosition: {x: -.00223654252, y: -.00742295757, z: -5.11915493}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 16
---- !u!54 &102603500
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 102603498}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &105654076
 GameObject:
   m_ObjectHideFlags: 0
@@ -1695,49 +1523,6 @@ Prefab:
   m_RootGameObject: {fileID: 1379520226}
   m_IsPrefabParent: 0
   m_IsExploded: 1
---- !u!1 &111460945
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 111460946}
-  - 54: {fileID: 111460947}
-  m_Layer: 0
-  m_Name: Jnt_13
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &111460946
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 111460945}
-  m_LocalRotation: {x: -.00036957374, y: .000111968548, z: 1.40793418e-05, w: 1}
-  m_LocalPosition: {x: -.00296402466, y: -.00984519999, z: -3.91458988}
-  m_LocalScale: {x: 1, y: 1.00000012, z: .99999994}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 12
---- !u!54 &111460947
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 111460945}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &111513403
 GameObject:
   m_ObjectHideFlags: 0
@@ -2705,6 +2490,49 @@ Transform:
   - {fileID: 2027462290}
   m_Father: {fileID: 698659366}
   m_RootOrder: 0
+--- !u!1 &197585356
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 197585357}
+  - 54: {fileID: 197585358}
+  m_Layer: 0
+  m_Name: Jnt_37
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &197585357
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 197585356}
+  m_LocalRotation: {x: .144685626, y: .602256238, z: -.0347758643, w: .784311295}
+  m_LocalPosition: {x: -1.18106079, y: .905333817, z: -10.0503616}
+  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 36
+--- !u!54 &197585358
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 197585356}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &199683883
 GameObject:
   m_ObjectHideFlags: 0
@@ -3226,49 +3054,6 @@ Transform:
   - {fileID: 1194352530}
   m_Father: {fileID: 1243647887}
   m_RootOrder: 0
---- !u!1 &238916488
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 238916489}
-  - 54: {fileID: 238916490}
-  m_Layer: 0
-  m_Name: Jnt_5
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &238916489
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 238916488}
-  m_LocalRotation: {x: -.00182725978, y: .000550275086, z: 7.00233722e-05, w: .999998212}
-  m_LocalPosition: {x: -.00109815854, y: -.00364751066, z: -1.50358069}
-  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 4
---- !u!54 &238916490
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 238916488}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &240533543
 GameObject:
   m_ObjectHideFlags: 0
@@ -3324,49 +3109,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 2045543460}
   m_RootOrder: 0
---- !u!1 &244808963
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 244808964}
-  - 54: {fileID: 244808965}
-  m_Layer: 0
-  m_Name: Jnt_27
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &244808964
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 244808963}
-  m_LocalRotation: {x: .103947148, y: -.0353483185, z: -.00072632177, w: .993954241}
-  m_LocalPosition: {x: .0813633949, y: .2623142, z: -8.09502697}
-  m_LocalScale: {x: 1, y: 1, z: 1.00000012}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 26
---- !u!54 &244808965
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 244808963}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &246315453
 GameObject:
   m_ObjectHideFlags: 0
@@ -3812,92 +3554,6 @@ Transform:
   - {fileID: 865875526}
   m_Father: {fileID: 1574420652}
   m_RootOrder: 0
---- !u!1 &272911573
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 272911574}
-  - 54: {fileID: 272911575}
-  m_Layer: 0
-  m_Name: Jnt_19
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &272911574
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 272911573}
-  m_LocalRotation: {x: .00446762983, y: -.00134203036, z: -.000162201002, w: .999989092}
-  m_LocalPosition: {x: -.000865282316, y: -.00286115939, z: -5.72159767}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 18
---- !u!54 &272911575
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 272911573}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!1 &274011988
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 274011989}
-  - 54: {fileID: 274011990}
-  m_Layer: 0
-  m_Name: Jnt_11
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &274011989
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 274011988}
-  m_LocalRotation: {x: -.00105050055, y: .000316454505, z: 4.00176286e-05, w: .999999404}
-  m_LocalPosition: {x: -.00276288809, y: -.00917740446, z: -3.31285644}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 10
---- !u!54 &274011990
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 274011988}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &279846745
 GameObject:
   m_ObjectHideFlags: 0
@@ -3925,49 +3581,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 96818656}
   m_RootOrder: 18
---- !u!1 &279860716
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 279860717}
-  - 54: {fileID: 279860718}
-  m_Layer: 0
-  m_Name: Jnt_15
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &279860717
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 279860716}
-  m_LocalRotation: {x: .000609387527, y: -.000183646378, z: -2.29160323e-05, w: .999999821}
-  m_LocalPosition: {x: -.00284035364, y: -.00943320431, z: -4.51607561}
-  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 14
---- !u!54 &279860718
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 279860716}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &288699164
 GameObject:
   m_ObjectHideFlags: 0
@@ -4230,40 +3843,40 @@ Transform:
   - {fileID: 1468852801}
   m_Father: {fileID: 1155957253}
   m_RootOrder: 0
---- !u!1 &327404247
+--- !u!1 &319637852
 GameObject:
   m_ObjectHideFlags: 9
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 327404248}
-  - 54: {fileID: 327404249}
+  - 4: {fileID: 319637853}
+  - 54: {fileID: 319637854}
   m_Layer: 0
-  m_Name: Jnt_29
+  m_Name: Jnt_21
   m_TagString: Rope
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &327404248
+--- !u!4 &319637853
 Transform:
   m_ObjectHideFlags: 9
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 327404247}
-  m_LocalRotation: {x: .0532132573, y: -.125189483, z: -.00891375542, w: .990664721}
-  m_LocalPosition: {x: .211731195, y: .329694152, z: -8.67747974}
-  m_LocalScale: {x: 1, y: 1, z: 1.00000012}
+  m_GameObject: {fileID: 319637852}
+  m_LocalRotation: {x: .00936347712, y: -.00281254249, z: -.000325964764, w: .999952137}
+  m_LocalPosition: {x: .00199118885, y: .00663899537, z: -6.32462263}
+  m_LocalScale: {x: 1.00000012, y: 1, z: 1.00000012}
   m_Children: []
   m_Father: {fileID: 1626694029}
-  m_RootOrder: 28
---- !u!54 &327404249
+  m_RootOrder: 20
+--- !u!54 &319637854
 Rigidbody:
   m_ObjectHideFlags: 9
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 327404247}
+  m_GameObject: {fileID: 319637852}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: .200000003
@@ -4453,6 +4066,49 @@ Transform:
   - {fileID: 1179307990}
   m_Father: {fileID: 866548037}
   m_RootOrder: 0
+--- !u!1 &347772010
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 347772011}
+  - 54: {fileID: 347772012}
+  m_Layer: 0
+  m_Name: Jnt_25
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &347772011
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 347772010}
+  m_LocalRotation: {x: .079014942, y: -.0236670822, z: -.00108057761, w: .996591926}
+  m_LocalPosition: {x: .0303229988, y: .100859709, z: -7.52052784}
+  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 24
+--- !u!54 &347772012
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 347772010}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &353957827
 GameObject:
   m_ObjectHideFlags: 0
@@ -4534,6 +4190,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 500605122}
   m_RootOrder: 0
+--- !u!1 &367998894
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 367998895}
+  - 54: {fileID: 367998896}
+  m_Layer: 0
+  m_Name: Jnt_7
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &367998895
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 367998894}
+  m_LocalRotation: {x: -.00178369228, y: .000536437903, z: 6.82373502e-05, w: .999998271}
+  m_LocalPosition: {x: -.00175610604, y: -.00583404955, z: -2.10720062}
+  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 6
+--- !u!54 &367998896
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 367998894}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &374037407
 GameObject:
   m_ObjectHideFlags: 0
@@ -4562,6 +4261,49 @@ Transform:
   - {fileID: 1996184280}
   m_Father: {fileID: 1785936954}
   m_RootOrder: 0
+--- !u!1 &379817907
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 379817908}
+  - 54: {fileID: 379817909}
+  m_Layer: 0
+  m_Name: Jnt_2
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &379817908
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 379817907}
+  m_LocalRotation: {x: -.00101781555, y: .000306856266, z: 3.8793547e-05, w: .999999464}
+  m_LocalPosition: {x: -.000184571953, y: -.000612183067, z: -.601192057}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 1
+--- !u!54 &379817909
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 379817907}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &380355573
 GameObject:
   m_ObjectHideFlags: 0
@@ -4799,49 +4541,6 @@ Transform:
   - {fileID: 111513404}
   m_Father: {fileID: 204133368}
   m_RootOrder: 0
---- !u!1 &410727138
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 410727139}
-  - 54: {fileID: 410727140}
-  m_Layer: 0
-  m_Name: Jnt_37
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &410727139
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 410727138}
-  m_LocalRotation: {x: .144685626, y: .602256238, z: -.0347758643, w: .784311295}
-  m_LocalPosition: {x: -1.18106079, y: .905333817, z: -10.0503616}
-  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 36
---- !u!54 &410727140
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 410727138}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &411989707
 GameObject:
   m_ObjectHideFlags: 0
@@ -4962,49 +4661,6 @@ Transform:
   - {fileID: 1028191632}
   m_Father: {fileID: 50925736}
   m_RootOrder: 0
---- !u!1 &427814040
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 427814041}
-  - 54: {fileID: 427814042}
-  m_Layer: 0
-  m_Name: Jnt_7
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &427814041
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 427814040}
-  m_LocalRotation: {x: -.00178369228, y: .000536437903, z: 6.82373502e-05, w: .999998271}
-  m_LocalPosition: {x: -.00175610604, y: -.00583404955, z: -2.10720062}
-  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 6
---- !u!54 &427814042
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 427814040}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &429266738
 GameObject:
   m_ObjectHideFlags: 0
@@ -5768,6 +5424,49 @@ Transform:
   - {fileID: 357552136}
   m_Father: {fileID: 789605088}
   m_RootOrder: 0
+--- !u!1 &503265495
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 503265496}
+  - 54: {fileID: 503265497}
+  m_Layer: 0
+  m_Name: Jnt_4
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &503265496
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 503265495}
+  m_LocalRotation: {x: -.00172680279, y: .000519864319, z: 6.60980368e-05, w: .99999845}
+  m_LocalPosition: {x: -.000767487451, y: -.0025492534, z: -1.20306659}
+  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 3
+--- !u!54 &503265497
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 503265495}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &515288358
 GameObject:
   m_ObjectHideFlags: 0
@@ -6525,49 +6224,6 @@ Transform:
   - {fileID: 805323224}
   m_Father: {fileID: 1264656985}
   m_RootOrder: 1
---- !u!1 &601661229
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 601661230}
-  - 54: {fileID: 601661231}
-  m_Layer: 0
-  m_Name: Jnt_20
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &601661230
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 601661229}
-  m_LocalRotation: {x: .00638920534, y: -.00191905024, z: -.000228199686, w: .999977767}
-  m_LocalPosition: {x: .000292493438, y: .000990324304, z: -6.0230031}
-  m_LocalScale: {x: 1, y: 1.00000012, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 19
---- !u!54 &601661231
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 601661229}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &606566069
 GameObject:
   m_ObjectHideFlags: 0
@@ -7180,6 +6836,49 @@ Prefab:
   m_RootGameObject: {fileID: 96818655}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &659526215
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 659526216}
+  - 54: {fileID: 659526217}
+  m_Layer: 0
+  m_Name: Jnt_1
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &659526216
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 659526215}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -2.07707966e-08, y: 5.41926326e-09, z: -.300457835}
+  m_LocalScale: {x: 1, y: 1, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 0
+--- !u!54 &659526217
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 659526215}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &670446582
 GameObject:
   m_ObjectHideFlags: 0
@@ -7235,49 +6934,6 @@ Transform:
   - {fileID: 983588917}
   m_Father: {fileID: 1883004187}
   m_RootOrder: 0
---- !u!1 &673688191
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 673688192}
-  - 54: {fileID: 673688193}
-  m_Layer: 0
-  m_Name: Jnt_2
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &673688192
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 673688191}
-  m_LocalRotation: {x: -.00101781555, y: .000306856266, z: 3.8793547e-05, w: .999999464}
-  m_LocalPosition: {x: -.000184571953, y: -.000612183067, z: -.601192057}
-  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 1
---- !u!54 &673688193
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 673688191}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &673822342
 GameObject:
   m_ObjectHideFlags: 0
@@ -7703,49 +7359,6 @@ Transform:
   - {fileID: 1771082469}
   m_Father: {fileID: 1150058472}
   m_RootOrder: 5
---- !u!1 &693490020
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 693490021}
-  - 54: {fileID: 693490022}
-  m_Layer: 0
-  m_Name: Jnt_35
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &693490021
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 693490020}
-  m_LocalRotation: {x: .147768781, y: .571933806, z: -.0323637091, w: .806231201}
-  m_LocalPosition: {x: -.621170282, y: .742937088, z: -9.90305614}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 34
---- !u!54 &693490022
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 693490020}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &698659365
 GameObject:
   m_ObjectHideFlags: 0
@@ -7774,6 +7387,92 @@ Transform:
   - {fileID: 193992786}
   m_Father: {fileID: 606566070}
   m_RootOrder: 0
+--- !u!1 &702979336
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 702979337}
+  - 54: {fileID: 702979338}
+  m_Layer: 0
+  m_Name: Jnt_8
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &702979337
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 702979336}
+  m_LocalRotation: {x: -.0016733004, y: .000504019728, z: 6.40584694e-05, w: .99999851}
+  m_LocalPosition: {x: -.00206038309, y: -.00684441859, z: -2.40910339}
+  m_LocalScale: {x: 1.00000012, y: 1, z: .99999994}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 7
+--- !u!54 &702979338
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 702979336}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &719160743
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 719160744}
+  - 54: {fileID: 719160745}
+  m_Layer: 0
+  m_Name: Jnt_12
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &719160744
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 719160743}
+  m_LocalRotation: {x: -.000740918622, y: .000222531671, z: 2.80704371e-05, w: .999999762}
+  m_LocalPosition: {x: -.00289652287, y: -.00962238852, z: -3.61314392}
+  m_LocalScale: {x: 1.00000024, y: 1, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 11
+--- !u!54 &719160745
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 719160743}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &721696818
 GameObject:
   m_ObjectHideFlags: 0
@@ -7886,92 +7585,6 @@ Transform:
   - {fileID: 1663602554}
   m_Father: {fileID: 0}
   m_RootOrder: 5
---- !u!1 &741733240
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 741733241}
-  - 54: {fileID: 741733242}
-  m_Layer: 0
-  m_Name: Jnt_10
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &741733241
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 741733240}
-  m_LocalRotation: {x: -.00130650506, y: .000393999042, z: 4.99266462e-05, w: .999999106}
-  m_LocalPosition: {x: -.00257276255, y: -.00854618195, z: -3.01242161}
-  m_LocalScale: {x: 1, y: .99999994, z: 1.00000012}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 9
---- !u!54 &741733242
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 741733240}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!1 &743967778
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 743967779}
-  - 54: {fileID: 743967780}
-  m_Layer: 0
-  m_Name: Jnt_28
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &743967779
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 743967778}
-  m_LocalRotation: {x: .061436981, y: -.0926345363, z: -.00584396161, w: .993785799}
-  m_LocalPosition: {x: .136897996, y: .298677415, z: -8.3880558}
-  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 27
---- !u!54 &743967780
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 743967778}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &746751668
 GameObject:
   m_ObjectHideFlags: 0
@@ -8227,49 +7840,6 @@ Transform:
   - {fileID: 746751669}
   m_Father: {fileID: 1865579387}
   m_RootOrder: 0
---- !u!1 &759460679
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 759460681}
-  - 54: {fileID: 759460680}
-  m_Layer: 0
-  m_Name: Jnt_23
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!54 &759460680
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 759460679}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
---- !u!4 &759460681
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 759460679}
-  m_LocalRotation: {x: .0236931797, y: -.0071056569, z: -.000720477256, w: .999693811}
-  m_LocalPosition: {x: .00893103518, y: .0297208205, z: -6.92497635}
-  m_LocalScale: {x: 1, y: 1.00000012, z: 1.00000012}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 22
 --- !u!1 &760774190
 GameObject:
   m_ObjectHideFlags: 0
@@ -8949,6 +8519,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1747465987}
   m_RootOrder: 20
+--- !u!1 &826659375
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 826659376}
+  - 54: {fileID: 826659377}
+  m_Layer: 0
+  m_Name: Jnt_19
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &826659376
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 826659375}
+  m_LocalRotation: {x: .00446762983, y: -.00134203036, z: -.000162201002, w: .999989092}
+  m_LocalPosition: {x: -.000865282316, y: -.00286115939, z: -5.72159767}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 18
+--- !u!54 &826659377
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 826659375}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &829830620
 GameObject:
   m_ObjectHideFlags: 0
@@ -9032,6 +8645,92 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1410492012}
   m_RootOrder: 0
+--- !u!1 &834841686
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 834841687}
+  - 54: {fileID: 834841688}
+  m_Layer: 0
+  m_Name: Jnt_9
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &834841687
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 834841686}
+  m_LocalRotation: {x: -.00151427905, y: .000455465866, z: 5.78116087e-05, w: .999998808}
+  m_LocalPosition: {x: -.00233490719, y: -.00775731914, z: -2.71052861}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 8
+--- !u!54 &834841688
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 834841686}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &837203399
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 837203400}
+  - 54: {fileID: 837203401}
+  m_Layer: 0
+  m_Name: Jnt_33
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &837203400
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 837203399}
+  m_LocalRotation: {x: .151827425, y: .442046136, z: -.0200735573, w: .883821726}
+  m_LocalPosition: {x: -.0831124783, y: .575860023, z: -9.69692612}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 32
+--- !u!54 &837203401
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 837203399}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &837419516
 GameObject:
   m_ObjectHideFlags: 0
@@ -9724,6 +9423,49 @@ Transform:
   - {fileID: 2051058741}
   m_Father: {fileID: 1571271946}
   m_RootOrder: 17
+--- !u!1 &907541361
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 907541362}
+  - 54: {fileID: 907541363}
+  m_Layer: 0
+  m_Name: Jnt_10
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &907541362
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 907541361}
+  m_LocalRotation: {x: -.00130650506, y: .000393999042, z: 4.99266462e-05, w: .999999106}
+  m_LocalPosition: {x: -.00257276255, y: -.00854618195, z: -3.01242161}
+  m_LocalScale: {x: 1, y: .99999994, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 9
+--- !u!54 &907541363
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 907541361}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &911264787
 GameObject:
   m_ObjectHideFlags: 0
@@ -9752,40 +9494,40 @@ Transform:
   - {fileID: 64750732}
   m_Father: {fileID: 411989708}
   m_RootOrder: 0
---- !u!1 &912775209
+--- !u!1 &913665267
 GameObject:
   m_ObjectHideFlags: 9
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 912775210}
-  - 54: {fileID: 912775211}
+  - 4: {fileID: 913665268}
+  - 54: {fileID: 913665269}
   m_Layer: 0
-  m_Name: Jnt_16
+  m_Name: Jnt_11
   m_TagString: Rope
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &912775210
+--- !u!4 &913665268
 Transform:
   m_ObjectHideFlags: 9
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 912775209}
-  m_LocalRotation: {x: .00126161275, y: -.000378498284, z: -4.69792576e-05, w: .999999106}
-  m_LocalPosition: {x: -.00261216611, y: -.00867271796, z: -4.81747246}
-  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
+  m_GameObject: {fileID: 913665267}
+  m_LocalRotation: {x: -.00105050055, y: .000316454505, z: 4.00176286e-05, w: .999999404}
+  m_LocalPosition: {x: -.00276288809, y: -.00917740446, z: -3.31285644}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1626694029}
-  m_RootOrder: 15
---- !u!54 &912775211
+  m_RootOrder: 10
+--- !u!54 &913665269
 Rigidbody:
   m_ObjectHideFlags: 9
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 912775209}
+  m_GameObject: {fileID: 913665267}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: .200000003
@@ -10542,49 +10284,6 @@ Transform:
   - {fileID: 763986759}
   m_Father: {fileID: 1815614945}
   m_RootOrder: 0
---- !u!1 &1007968026
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1007968027}
-  - 54: {fileID: 1007968028}
-  m_Layer: 0
-  m_Name: Jnt_30
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1007968027
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1007968026}
-  m_LocalRotation: {x: .0592260547, y: -.101397149, z: -.00661801966, w: .993059456}
-  m_LocalPosition: {x: .272429764, y: .3646079, z: -8.96943474}
-  m_LocalScale: {x: 1.00000012, y: 1, z: .999999881}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 29
---- !u!54 &1007968028
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1007968026}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1010801092
 GameObject:
   m_ObjectHideFlags: 0
@@ -10718,6 +10417,49 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 3.24984312, y: 5.97413588, z: 4.07919407}
   m_Center: {x: -.0743907094, y: 0, z: 0}
+--- !u!1 &1017547974
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1017547975}
+  - 54: {fileID: 1017547976}
+  m_Layer: 0
+  m_Name: Jnt_6
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1017547975
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1017547974}
+  m_LocalRotation: {x: -.00183879549, y: .000553823775, z: 7.04820341e-05, w: .999998212}
+  m_LocalPosition: {x: -.00143124699, y: -.00475364737, z: -1.80435193}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 5
+--- !u!54 &1017547976
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1017547974}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1022965761
 GameObject:
   m_ObjectHideFlags: 0
@@ -10746,49 +10488,6 @@ Transform:
   - {fileID: 2141694624}
   m_Father: {fileID: 964171620}
   m_RootOrder: 8
---- !u!1 &1023042284
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1023042285}
-  - 54: {fileID: 1023042286}
-  m_Layer: 0
-  m_Name: Jnt_36
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1023042285
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1023042284}
-  m_LocalRotation: {x: .145855412, y: .591710746, z: -.033970993, w: .792117834}
-  m_LocalPosition: {x: -.900141239, y: .82452935, z: -9.98041821}
-  m_LocalScale: {x: .99999994, y: .99999994, z: .99999994}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 35
---- !u!54 &1023042286
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1023042284}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1026005559
 GameObject:
   m_ObjectHideFlags: 0
@@ -11486,49 +11185,6 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1078566162}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1080308111
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1080308112}
-  - 54: {fileID: 1080308113}
-  m_Layer: 0
-  m_Name: Jnt_6
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1080308112
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1080308111}
-  m_LocalRotation: {x: -.00183879549, y: .000553823775, z: 7.04820341e-05, w: .999998212}
-  m_LocalPosition: {x: -.00143124699, y: -.00475364737, z: -1.80435193}
-  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 5
---- !u!54 &1080308113
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1080308111}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1083285451
 GameObject:
   m_ObjectHideFlags: 0
@@ -11901,49 +11557,6 @@ Transform:
   - {fileID: 1152125816}
   m_Father: {fileID: 57605584}
   m_RootOrder: 0
---- !u!1 &1138849533
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1138849534}
-  - 54: {fileID: 1138849535}
-  m_Layer: 0
-  m_Name: Jnt_34
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1138849534
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1138849533}
-  m_LocalRotation: {x: .15044257, y: .534000695, z: -.0289981924, w: .831486285}
-  m_LocalPosition: {x: -.347038209, y: .660248637, z: -9.81231117}
-  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 33
---- !u!54 &1138849535
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1138849533}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1140150994
 GameObject:
   m_ObjectHideFlags: 0
@@ -12136,40 +11749,40 @@ Transform:
   - {fileID: 829830621}
   m_Father: {fileID: 1119446283}
   m_RootOrder: 2
---- !u!1 &1152930303
+--- !u!1 &1154818569
 GameObject:
   m_ObjectHideFlags: 9
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1152930304}
-  - 54: {fileID: 1152930305}
+  - 4: {fileID: 1154818570}
+  - 54: {fileID: 1154818571}
   m_Layer: 0
-  m_Name: Jnt_31
+  m_Name: Jnt_28
   m_TagString: Rope
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1152930304
+--- !u!4 &1154818570
 Transform:
   m_ObjectHideFlags: 9
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1152930303}
-  m_LocalRotation: {x: .0837091357, y: -.0027285926, z: -.00011176656, w: .996486545}
-  m_LocalPosition: {x: .274066955, y: .414662212, z: -9.26525879}
-  m_LocalScale: {x: 1, y: 1.00000012, z: 1}
+  m_GameObject: {fileID: 1154818569}
+  m_LocalRotation: {x: .061436981, y: -.0926345363, z: -.00584396161, w: .993785799}
+  m_LocalPosition: {x: .136897996, y: .298677415, z: -8.3880558}
+  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1626694029}
-  m_RootOrder: 30
---- !u!54 &1152930305
+  m_RootOrder: 27
+--- !u!54 &1154818571
 Rigidbody:
   m_ObjectHideFlags: 9
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1152930303}
+  m_GameObject: {fileID: 1154818569}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: .200000003
@@ -12207,49 +11820,6 @@ Transform:
   - {fileID: 319532225}
   m_Father: {fileID: 1522913201}
   m_RootOrder: 0
---- !u!1 &1157692666
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1157692667}
-  - 54: {fileID: 1157692668}
-  m_Layer: 0
-  m_Name: Jnt_21
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1157692667
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1157692666}
-  m_LocalRotation: {x: .00936347712, y: -.00281254249, z: -.000325964764, w: .999952137}
-  m_LocalPosition: {x: .00199118885, y: .00663899537, z: -6.32462263}
-  m_LocalScale: {x: 1.00000012, y: 1, z: 1.00000012}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 20
---- !u!54 &1157692668
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1157692666}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1163266213
 GameObject:
   m_ObjectHideFlags: 0
@@ -12458,49 +12028,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 344571533}
   m_RootOrder: 0
---- !u!1 &1188510624
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1188510625}
-  - 54: {fileID: 1188510626}
-  m_Layer: 0
-  m_Name: Jnt_26
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1188510625
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1188510624}
-  m_LocalRotation: {x: .168148354, y: -.050986547, z: .00226673693, w: .984439671}
-  m_LocalPosition: {x: .0602371953, y: .200338289, z: -7.80225897}
-  m_LocalScale: {x: 1.00000012, y: .99999994, z: 1.00000012}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 25
---- !u!54 &1188510626
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1188510624}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1189160050
 GameObject:
   m_ObjectHideFlags: 0
@@ -12859,6 +12386,49 @@ MeshFilter:
   m_PrefabInternal: {fileID: 116797183}
   m_GameObject: {fileID: 1234958916}
   m_Mesh: {fileID: 4300002, guid: f868104fff7708d4ca5968f2ff105a35, type: 3}
+--- !u!1 &1237453717
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1237453719}
+  - 54: {fileID: 1237453718}
+  m_Layer: 0
+  m_Name: Jnt_24
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!54 &1237453718
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1237453717}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!4 &1237453719
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1237453717}
+  m_LocalRotation: {x: .0397560932, y: -.0119108753, z: -.00101458177, w: .999137938}
+  m_LocalPosition: {x: .0161032099, y: .053572014, z: -7.22426128}
+  m_LocalScale: {x: .99999994, y: 1, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 23
 --- !u!1 &1237525253
 GameObject:
   m_ObjectHideFlags: 0
@@ -12887,6 +12457,49 @@ Transform:
   - {fileID: 1593076180}
   m_Father: {fileID: 96818656}
   m_RootOrder: 15
+--- !u!1 &1237728800
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1237728801}
+  - 54: {fileID: 1237728802}
+  m_Layer: 0
+  m_Name: Jnt_35
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1237728801
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1237728800}
+  m_LocalRotation: {x: .147768781, y: .571933806, z: -.0323637091, w: .806231201}
+  m_LocalPosition: {x: -.621170282, y: .742937088, z: -9.90305614}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 34
+--- !u!54 &1237728802
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1237728800}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1238258379
 GameObject:
   m_ObjectHideFlags: 0
@@ -13471,6 +13084,49 @@ Transform:
   - {fileID: 1599463794}
   m_Father: {fileID: 964171620}
   m_RootOrder: 11
+--- !u!1 &1290079236
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1290079237}
+  - 54: {fileID: 1290079238}
+  m_Layer: 0
+  m_Name: Jnt_29
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1290079237
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1290079236}
+  m_LocalRotation: {x: .0532132573, y: -.125189483, z: -.00891375542, w: .990664721}
+  m_LocalPosition: {x: .211731195, y: .329694152, z: -8.67747974}
+  m_LocalScale: {x: 1, y: 1, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 28
+--- !u!54 &1290079238
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1290079236}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1290387131
 GameObject:
   m_ObjectHideFlags: 0
@@ -14147,6 +13803,49 @@ Transform:
   - {fileID: 633302482}
   m_Father: {fileID: 1311644973}
   m_RootOrder: 0
+--- !u!1 &1348056103
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1348056104}
+  - 54: {fileID: 1348056105}
+  m_Layer: 0
+  m_Name: Jnt_30
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1348056104
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1348056103}
+  m_LocalRotation: {x: .0592260547, y: -.101397149, z: -.00661801966, w: .993059456}
+  m_LocalPosition: {x: .272429764, y: .3646079, z: -8.96943474}
+  m_LocalScale: {x: 1.00000012, y: 1, z: .999999881}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 29
+--- !u!54 &1348056105
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1348056103}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1001 &1358862921
 Prefab:
   m_ObjectHideFlags: 0
@@ -14394,6 +14093,49 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &1385484169
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1385484170}
+  - 54: {fileID: 1385484171}
+  m_Layer: 0
+  m_Name: Jnt_14
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1385484170
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1385484169}
+  m_LocalRotation: {x: 7.54355788e-05, y: -2.19803042e-05, z: -2.75500747e-06, w: 1}
+  m_LocalPosition: {x: -.00295082433, y: -.00979983341, z: -4.21526003}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 13
+--- !u!54 &1385484171
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1385484169}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1385639862
 GameObject:
   m_ObjectHideFlags: 0
@@ -14504,6 +14246,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1409912443}
   m_RootOrder: 3
+--- !u!1 &1395579616
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1395579617}
+  - 54: {fileID: 1395579618}
+  m_Layer: 0
+  m_Name: Jnt_3
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1395579617
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1395579616}
+  m_LocalRotation: {x: -.00149208005, y: .000448998966, z: 5.69810763e-05, w: .999998868}
+  m_LocalPosition: {x: -.000455414032, y: -.00151240488, z: -.902852356}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 2
+--- !u!54 &1395579618
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1395579616}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1399789034
 GameObject:
   m_ObjectHideFlags: 0
@@ -14584,7 +14369,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1402980152}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -12.4569998, y: -8.89009953, z: -34.9803009}
+  m_LocalPosition: {x: -12.4569998, y: 30.6456985, z: -34.9803009}
   m_LocalScale: {x: 58.3632965, y: 1, z: 53.5997353}
   m_Children: []
   m_Father: {fileID: 1789275978}
@@ -14628,6 +14413,92 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1402980152}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1403943709
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1403943710}
+  - 54: {fileID: 1403943711}
+  m_Layer: 0
+  m_Name: Jnt_39
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1403943710
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1403943709}
+  m_LocalRotation: {x: .144771263, y: .6015172, z: -.0347209238, w: .784864843}
+  m_LocalPosition: {x: -1.74384105, y: 1.06682599, z: -10.1882076}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 38
+--- !u!54 &1403943711
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1403943709}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &1406437011
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1406437012}
+  - 54: {fileID: 1406437013}
+  m_Layer: 0
+  m_Name: Jnt_20
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1406437012
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1406437011}
+  m_LocalRotation: {x: .00638920534, y: -.00191905024, z: -.000228199686, w: .999977767}
+  m_LocalPosition: {x: .000292493438, y: .000990324304, z: -6.0230031}
+  m_LocalScale: {x: 1, y: 1.00000012, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 19
+--- !u!54 &1406437013
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1406437011}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1409912441
 GameObject:
   m_ObjectHideFlags: 0
@@ -14789,6 +14660,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1385639863}
   m_RootOrder: 0
+--- !u!1 &1421191149
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1421191150}
+  - 54: {fileID: 1421191151}
+  m_Layer: 0
+  m_Name: Jnt_32
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1421191150
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1421191149}
+  m_LocalRotation: {x: .129173577, y: .214352325, z: -.0016914818, w: .968175888}
+  m_LocalPosition: {x: .149555922, y: .489992231, z: -9.5279398}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 31
+--- !u!54 &1421191151
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1421191149}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1424861500
 GameObject:
   m_ObjectHideFlags: 0
@@ -14938,49 +14852,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1409912443}
   m_RootOrder: 2
---- !u!1 &1434783662
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1434783663}
-  - 54: {fileID: 1434783664}
-  m_Layer: 0
-  m_Name: Jnt_14
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1434783663
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1434783662}
-  m_LocalRotation: {x: 7.54355788e-05, y: -2.19803042e-05, z: -2.75500747e-06, w: 1}
-  m_LocalPosition: {x: -.00295082433, y: -.00979983341, z: -4.21526003}
-  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 13
---- !u!54 &1434783664
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1434783662}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &1436466274
 Prefab:
   m_ObjectHideFlags: 0
@@ -15052,49 +14923,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 474565551}
   m_RootOrder: 0
---- !u!1 &1446271160
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1446271161}
-  - 54: {fileID: 1446271162}
-  m_Layer: 0
-  m_Name: Jnt_18
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1446271161
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1446271160}
-  m_LocalRotation: {x: .00310208951, y: -.000932278461, z: -.00011396945, w: .999994755}
-  m_LocalPosition: {x: -.00167575083, y: -.00555767305, z: -5.41980934}
-  m_LocalScale: {x: 1, y: 1.00000012, z: 1.00000012}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 17
---- !u!54 &1446271162
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1446271160}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1448909895
 GameObject:
   m_ObjectHideFlags: 0
@@ -15278,15 +15106,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   InfoContents: Out of range!
   showDistance: 0
---- !u!1 &1462142187
+--- !u!1 &1461209507
 GameObject:
   m_ObjectHideFlags: 9
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 1462142188}
-  - 54: {fileID: 1462142189}
+  - 4: {fileID: 1461209508}
+  - 54: {fileID: 1461209509}
   m_Layer: 0
   m_Name: Jnt_38
   m_TagString: Rope
@@ -15294,24 +15122,24 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1462142188
+--- !u!4 &1461209508
 Transform:
   m_ObjectHideFlags: 9
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1462142187}
+  m_GameObject: {fileID: 1461209507}
   m_LocalRotation: {x: .144244179, y: .606007457, z: -.0350525044, w: .781485796}
   m_LocalPosition: {x: -1.46283138, y: .985900521, z: -10.1176863}
   m_LocalScale: {x: 1, y: 1, z: .999999881}
   m_Children: []
   m_Father: {fileID: 1626694029}
   m_RootOrder: 37
---- !u!54 &1462142189
+--- !u!54 &1461209509
 Rigidbody:
   m_ObjectHideFlags: 9
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1462142187}
+  m_GameObject: {fileID: 1461209507}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: .200000003
@@ -15791,6 +15619,49 @@ Transform:
   - {fileID: 62124529}
   m_Father: {fileID: 1379520227}
   m_RootOrder: 5
+--- !u!1 &1498392773
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1498392774}
+  - 54: {fileID: 1498392775}
+  m_Layer: 0
+  m_Name: Jnt_5
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1498392774
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1498392773}
+  m_LocalRotation: {x: -.00182725978, y: .000550275086, z: 7.00233722e-05, w: .999998212}
+  m_LocalPosition: {x: -.00109815854, y: -.00364751066, z: -1.50358069}
+  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 4
+--- !u!54 &1498392775
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1498392773}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1498579943
 GameObject:
   m_ObjectHideFlags: 0
@@ -16509,6 +16380,92 @@ Transform:
   - {fileID: 272687305}
   m_Father: {fileID: 1571271946}
   m_RootOrder: 3
+--- !u!1 &1576784366
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1576784367}
+  - 54: {fileID: 1576784368}
+  m_Layer: 0
+  m_Name: Jnt_26
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1576784367
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1576784366}
+  m_LocalRotation: {x: .168148354, y: -.050986547, z: .00226673693, w: .984439671}
+  m_LocalPosition: {x: .0602371953, y: .200338289, z: -7.80225897}
+  m_LocalScale: {x: 1.00000012, y: .99999994, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 25
+--- !u!54 &1576784368
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1576784366}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &1592879195
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1592879196}
+  - 54: {fileID: 1592879197}
+  m_Layer: 0
+  m_Name: Jnt_27
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1592879196
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1592879195}
+  m_LocalRotation: {x: .103947148, y: -.0353483185, z: -.00072632177, w: .993954241}
+  m_LocalPosition: {x: .0813633949, y: .2623142, z: -8.09502697}
+  m_LocalScale: {x: 1, y: 1, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 26
+--- !u!54 &1592879197
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1592879195}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1593076179
 GameObject:
   m_ObjectHideFlags: 0
@@ -16873,45 +16830,45 @@ Transform:
   m_LocalPosition: {x: -4.8842001, y: 2.96539998, z: 12.1440001}
   m_LocalScale: {x: .99999994, y: .99999994, z: .99999994}
   m_Children:
-  - {fileID: 2067570157}
-  - {fileID: 673688192}
-  - {fileID: 1805130705}
-  - {fileID: 7145284}
-  - {fileID: 238916489}
-  - {fileID: 1080308112}
-  - {fileID: 427814041}
-  - {fileID: 2014375382}
-  - {fileID: 1985179726}
-  - {fileID: 741733241}
-  - {fileID: 274011989}
-  - {fileID: 1682438657}
-  - {fileID: 111460946}
-  - {fileID: 1434783663}
-  - {fileID: 279860717}
-  - {fileID: 912775210}
-  - {fileID: 102603499}
-  - {fileID: 1446271161}
-  - {fileID: 272911574}
-  - {fileID: 601661230}
-  - {fileID: 1157692667}
-  - {fileID: 1711188365}
-  - {fileID: 759460681}
-  - {fileID: 1772048535}
-  - {fileID: 99950631}
-  - {fileID: 1188510625}
-  - {fileID: 244808964}
-  - {fileID: 743967779}
-  - {fileID: 327404248}
-  - {fileID: 1007968027}
-  - {fileID: 1152930304}
-  - {fileID: 63600462}
-  - {fileID: 2102901684}
-  - {fileID: 1138849534}
-  - {fileID: 693490021}
-  - {fileID: 1023042285}
-  - {fileID: 410727139}
-  - {fileID: 1462142188}
-  - {fileID: 83298517}
+  - {fileID: 659526216}
+  - {fileID: 379817908}
+  - {fileID: 1395579617}
+  - {fileID: 503265496}
+  - {fileID: 1498392774}
+  - {fileID: 1017547975}
+  - {fileID: 367998895}
+  - {fileID: 702979337}
+  - {fileID: 834841687}
+  - {fileID: 907541362}
+  - {fileID: 913665268}
+  - {fileID: 719160744}
+  - {fileID: 2001792738}
+  - {fileID: 1385484170}
+  - {fileID: 2017953734}
+  - {fileID: 2138639767}
+  - {fileID: 1979190011}
+  - {fileID: 1738599616}
+  - {fileID: 826659376}
+  - {fileID: 1406437012}
+  - {fileID: 319637853}
+  - {fileID: 1744944041}
+  - {fileID: 564955}
+  - {fileID: 1237453719}
+  - {fileID: 347772011}
+  - {fileID: 1576784367}
+  - {fileID: 1592879196}
+  - {fileID: 1154818570}
+  - {fileID: 1290079237}
+  - {fileID: 1348056104}
+  - {fileID: 1649770055}
+  - {fileID: 1421191150}
+  - {fileID: 837203400}
+  - {fileID: 2046780956}
+  - {fileID: 1237728801}
+  - {fileID: 2145028027}
+  - {fileID: 197585357}
+  - {fileID: 1461209508}
+  - {fileID: 1403943710}
   m_Father: {fileID: 0}
   m_RootOrder: 8
 --- !u!23 &1626694030
@@ -17043,45 +17000,45 @@ MonoBehaviour:
   - {x: -2.5108645, y: 2.80696297, z: 1.92727721}
   Joints:
   - {fileID: 1626694028}
-  - {fileID: 2067570156}
-  - {fileID: 673688191}
-  - {fileID: 1805130704}
-  - {fileID: 7145283}
-  - {fileID: 238916488}
-  - {fileID: 1080308111}
-  - {fileID: 427814040}
-  - {fileID: 2014375381}
-  - {fileID: 1985179725}
-  - {fileID: 741733240}
-  - {fileID: 274011988}
-  - {fileID: 1682438656}
-  - {fileID: 111460945}
-  - {fileID: 1434783662}
-  - {fileID: 279860716}
-  - {fileID: 912775209}
-  - {fileID: 102603498}
-  - {fileID: 1446271160}
-  - {fileID: 272911573}
-  - {fileID: 601661229}
-  - {fileID: 1157692666}
-  - {fileID: 1711188364}
-  - {fileID: 759460679}
-  - {fileID: 1772048534}
-  - {fileID: 99950630}
-  - {fileID: 1188510624}
-  - {fileID: 244808963}
-  - {fileID: 743967778}
-  - {fileID: 327404247}
-  - {fileID: 1007968026}
-  - {fileID: 1152930303}
-  - {fileID: 63600461}
-  - {fileID: 2102901683}
-  - {fileID: 1138849533}
-  - {fileID: 693490020}
-  - {fileID: 1023042284}
-  - {fileID: 410727138}
-  - {fileID: 1462142187}
-  - {fileID: 83298516}
+  - {fileID: 659526215}
+  - {fileID: 379817907}
+  - {fileID: 1395579616}
+  - {fileID: 503265495}
+  - {fileID: 1498392773}
+  - {fileID: 1017547974}
+  - {fileID: 367998894}
+  - {fileID: 702979336}
+  - {fileID: 834841686}
+  - {fileID: 907541361}
+  - {fileID: 913665267}
+  - {fileID: 719160743}
+  - {fileID: 2001792737}
+  - {fileID: 1385484169}
+  - {fileID: 2017953733}
+  - {fileID: 2138639766}
+  - {fileID: 1979190010}
+  - {fileID: 1738599615}
+  - {fileID: 826659375}
+  - {fileID: 1406437011}
+  - {fileID: 319637852}
+  - {fileID: 1744944040}
+  - {fileID: 564954}
+  - {fileID: 1237453717}
+  - {fileID: 347772010}
+  - {fileID: 1576784366}
+  - {fileID: 1592879195}
+  - {fileID: 1154818569}
+  - {fileID: 1290079236}
+  - {fileID: 1348056103}
+  - {fileID: 1649770054}
+  - {fileID: 1421191149}
+  - {fileID: 837203399}
+  - {fileID: 2046780955}
+  - {fileID: 1237728800}
+  - {fileID: 2145028026}
+  - {fileID: 197585356}
+  - {fileID: 1461209507}
+  - {fileID: 1403943709}
   - {fileID: 587285204}
   calculatedPositions:
   - {x: -5.28429699, y: 3.0880394, z: 13.0522299}
@@ -17148,8 +17105,8 @@ MonoBehaviour:
   drag: .200000003
   angDrag: .0500000007
   useGravity: 1
-  LowAngXLimit: -60
-  HighAngXLimit: 60
+  LowAngXLimit: -35
+  HighAngXLimit: 35
   LTLBounce: 0
   LTLSpring: 0
   LTLDamper: 0
@@ -17170,7 +17127,7 @@ MonoBehaviour:
   minRopeLength: 20
   maxRopeLength: 75
   maxVelocity: 5
-  EDITOR_TAB_SELECTED: 3
+  EDITOR_TAB_SELECTED: 1
   EDITOR_SHOW_RIGIDBODY: 1
   EDITOR_SHOW_JOINTSETTINGS: 0
   EDITOR_SHOW_COLLIDERSETTINGS: 0
@@ -17217,6 +17174,49 @@ Transform:
   - {fileID: 246315454}
   m_Father: {fileID: 288699165}
   m_RootOrder: 0
+--- !u!1 &1649770054
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1649770055}
+  - 54: {fileID: 1649770056}
+  m_Layer: 0
+  m_Name: Jnt_31
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1649770055
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1649770054}
+  m_LocalRotation: {x: .0837091357, y: -.0027285926, z: -.00011176656, w: .996486545}
+  m_LocalPosition: {x: .274066955, y: .414662212, z: -9.26525879}
+  m_LocalScale: {x: 1, y: 1.00000012, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 30
+--- !u!54 &1649770056
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1649770054}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1663602553
 GameObject:
   m_ObjectHideFlags: 0
@@ -17374,49 +17374,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1794679034}
   m_RootOrder: 0
---- !u!1 &1682438656
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1682438657}
-  - 54: {fileID: 1682438658}
-  m_Layer: 0
-  m_Name: Jnt_12
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1682438657
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1682438656}
-  m_LocalRotation: {x: -.000740918622, y: .000222531671, z: 2.80704371e-05, w: .999999762}
-  m_LocalPosition: {x: -.00289652287, y: -.00962238852, z: -3.61314392}
-  m_LocalScale: {x: 1.00000024, y: 1, z: 1.00000012}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 11
---- !u!54 &1682438658
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1682438656}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1684488770
 GameObject:
   m_ObjectHideFlags: 0
@@ -17528,49 +17485,6 @@ Prefab:
   m_RootGameObject: {fileID: 1150058471}
   m_IsPrefabParent: 0
   m_IsExploded: 1
---- !u!1 &1711188364
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1711188365}
-  - 54: {fileID: 1711188366}
-  m_Layer: 0
-  m_Name: Jnt_22
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1711188365
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1711188364}
-  m_LocalRotation: {x: .0147466762, y: -.0044253394, z: -.000488751277, w: .999881387}
-  m_LocalPosition: {x: .00465694582, y: .015506479, z: -6.6252203}
-  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 21
---- !u!54 &1711188366
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1711188364}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1727493284
 GameObject:
   m_ObjectHideFlags: 0
@@ -17696,6 +17610,49 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1733035601}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1738599615
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1738599616}
+  - 54: {fileID: 1738599617}
+  m_Layer: 0
+  m_Name: Jnt_18
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1738599616
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1738599615}
+  m_LocalRotation: {x: .00310208951, y: -.000932278461, z: -.00011396945, w: .999994755}
+  m_LocalPosition: {x: -.00167575083, y: -.00555767305, z: -5.41980934}
+  m_LocalScale: {x: 1, y: 1.00000012, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 17
+--- !u!54 &1738599617
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1738599615}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1742069248
 GameObject:
   m_ObjectHideFlags: 0
@@ -17723,6 +17680,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 983588917}
   m_RootOrder: 0
+--- !u!1 &1744944040
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1744944041}
+  - 54: {fileID: 1744944042}
+  m_Layer: 0
+  m_Name: Jnt_22
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1744944041
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1744944040}
+  m_LocalRotation: {x: .0147466762, y: -.0044253394, z: -.000488751277, w: .999881387}
+  m_LocalPosition: {x: .00465694582, y: .015506479, z: -6.6252203}
+  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 21
+--- !u!54 &1744944042
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1744944040}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1747465986
 GameObject:
   m_ObjectHideFlags: 0
@@ -17933,49 +17933,6 @@ Transform:
   - {fileID: 1399789035}
   m_Father: {fileID: 693479873}
   m_RootOrder: 0
---- !u!1 &1772048534
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1772048535}
-  - 54: {fileID: 1772048536}
-  m_Layer: 0
-  m_Name: Jnt_24
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1772048535
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1772048534}
-  m_LocalRotation: {x: .0397560932, y: -.0119108753, z: -.00101458177, w: .999137938}
-  m_LocalPosition: {x: .0161032099, y: .053572014, z: -7.22426128}
-  m_LocalScale: {x: .99999994, y: 1, z: 1.00000012}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 23
---- !u!54 &1772048536
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1772048534}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1775141001
 GameObject:
   m_ObjectHideFlags: 0
@@ -18323,49 +18280,6 @@ Transform:
   - {fileID: 457626700}
   m_Father: {fileID: 96818656}
   m_RootOrder: 8
---- !u!1 &1805130704
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1805130705}
-  - 54: {fileID: 1805130706}
-  m_Layer: 0
-  m_Name: Jnt_3
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1805130705
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1805130704}
-  m_LocalRotation: {x: -.00149208005, y: .000448998966, z: 5.69810763e-05, w: .999998868}
-  m_LocalPosition: {x: -.000455414032, y: -.00151240488, z: -.902852356}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 2
---- !u!54 &1805130706
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1805130704}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1809263164
 GameObject:
   m_ObjectHideFlags: 0
@@ -19930,7 +19844,7 @@ Transform:
   m_PrefabInternal: {fileID: 60016882}
   m_GameObject: {fileID: 1966036230}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.32480001, y: .41997999, z: -24.1100006}
+  m_LocalPosition: {x: -7.69750929, y: .41997999, z: -29.0050621}
   m_LocalScale: {x: .522068202, y: .52206856, z: .522068083}
   m_Children:
   - {fileID: 635624432}
@@ -19996,6 +19910,49 @@ Animator:
   m_ApplyRootMotion: 1
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
+--- !u!1 &1979190010
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 1979190011}
+  - 54: {fileID: 1979190012}
+  m_Layer: 0
+  m_Name: Jnt_17
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1979190011
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1979190010}
+  m_LocalRotation: {x: .00207134988, y: -.000622398744, z: -7.67395395e-05, w: .999997735}
+  m_LocalPosition: {x: -.00223654252, y: -.00742295757, z: -5.11915493}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 16
+--- !u!54 &1979190012
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1979190010}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &1982725581
 GameObject:
   m_ObjectHideFlags: 0
@@ -20023,49 +19980,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 964171620}
   m_RootOrder: 1
---- !u!1 &1985179725
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 1985179726}
-  - 54: {fileID: 1985179727}
-  m_Layer: 0
-  m_Name: Jnt_9
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1985179726
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1985179725}
-  m_LocalRotation: {x: -.00151427905, y: .000455465866, z: 5.78116087e-05, w: .999998808}
-  m_LocalPosition: {x: -.00233490719, y: -.00775731914, z: -2.71052861}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 8
---- !u!54 &1985179727
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1985179725}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &1987336738
 GameObject:
   m_ObjectHideFlags: 0
@@ -20359,40 +20273,83 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1254927556}
   m_RootOrder: 0
---- !u!1 &2014375381
+--- !u!1 &2001792737
 GameObject:
   m_ObjectHideFlags: 9
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   serializedVersion: 4
   m_Component:
-  - 4: {fileID: 2014375382}
-  - 54: {fileID: 2014375383}
+  - 4: {fileID: 2001792738}
+  - 54: {fileID: 2001792739}
   m_Layer: 0
-  m_Name: Jnt_8
+  m_Name: Jnt_13
   m_TagString: Rope
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2014375382
+--- !u!4 &2001792738
 Transform:
   m_ObjectHideFlags: 9
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2014375381}
-  m_LocalRotation: {x: -.0016733004, y: .000504019728, z: 6.40584694e-05, w: .99999851}
-  m_LocalPosition: {x: -.00206038309, y: -.00684441859, z: -2.40910339}
-  m_LocalScale: {x: 1.00000012, y: 1, z: .99999994}
+  m_GameObject: {fileID: 2001792737}
+  m_LocalRotation: {x: -.00036957374, y: .000111968548, z: 1.40793418e-05, w: 1}
+  m_LocalPosition: {x: -.00296402466, y: -.00984519999, z: -3.91458988}
+  m_LocalScale: {x: 1, y: 1.00000012, z: .99999994}
   m_Children: []
   m_Father: {fileID: 1626694029}
-  m_RootOrder: 7
---- !u!54 &2014375383
+  m_RootOrder: 12
+--- !u!54 &2001792739
 Rigidbody:
   m_ObjectHideFlags: 9
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2014375381}
+  m_GameObject: {fileID: 2001792737}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!1 &2017953733
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2017953734}
+  - 54: {fileID: 2017953735}
+  m_Layer: 0
+  m_Name: Jnt_15
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2017953734
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2017953733}
+  m_LocalRotation: {x: .000609387527, y: -.000183646378, z: -2.29160323e-05, w: .999999821}
+  m_LocalPosition: {x: -.00284035364, y: -.00943320431, z: -4.51607561}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 14
+--- !u!54 &2017953735
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2017953733}
   serializedVersion: 2
   m_Mass: 1
   m_Drag: .200000003
@@ -20653,6 +20610,49 @@ Transform:
   - {fileID: 2113089831}
   m_Father: {fileID: 964171620}
   m_RootOrder: 0
+--- !u!1 &2046780955
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2046780956}
+  - 54: {fileID: 2046780957}
+  m_Layer: 0
+  m_Name: Jnt_34
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2046780956
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2046780955}
+  m_LocalRotation: {x: .15044257, y: .534000695, z: -.0289981924, w: .831486285}
+  m_LocalPosition: {x: -.347038209, y: .660248637, z: -9.81231117}
+  m_LocalScale: {x: 1.00000012, y: 1.00000012, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 33
+--- !u!54 &2046780957
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2046780955}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2047171593
 GameObject:
   m_ObjectHideFlags: 0
@@ -20873,49 +20873,6 @@ Transform:
   - {fileID: 156934414}
   m_Father: {fileID: 1571271946}
   m_RootOrder: 4
---- !u!1 &2067570156
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2067570157}
-  - 54: {fileID: 2067570158}
-  m_Layer: 0
-  m_Name: Jnt_1
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2067570157
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2067570156}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -2.07707966e-08, y: 5.41926326e-09, z: -.300457835}
-  m_LocalScale: {x: 1, y: 1, z: 1.00000012}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 0
---- !u!54 &2067570158
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2067570156}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1 &2077467781
 GameObject:
   m_ObjectHideFlags: 0
@@ -21191,49 +21148,6 @@ Transform:
   - {fileID: 546358673}
   m_Father: {fileID: 964171620}
   m_RootOrder: 17
---- !u!1 &2102901683
-GameObject:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  serializedVersion: 4
-  m_Component:
-  - 4: {fileID: 2102901684}
-  - 54: {fileID: 2102901685}
-  m_Layer: 0
-  m_Name: Jnt_33
-  m_TagString: Rope
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2102901684
-Transform:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2102901683}
-  m_LocalRotation: {x: .151827425, y: .442046136, z: -.0200735573, w: .883821726}
-  m_LocalPosition: {x: -.0831124783, y: .575860023, z: -9.69692612}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1626694029}
-  m_RootOrder: 32
---- !u!54 &2102901685
-Rigidbody:
-  m_ObjectHideFlags: 9
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 2102901683}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: .200000003
-  m_AngularDrag: .0500000007
-  m_UseGravity: 1
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!1001 &2103304909
 Prefab:
   m_ObjectHideFlags: 0
@@ -21851,6 +21765,49 @@ Prefab:
   m_RootGameObject: {fileID: 2124862999}
   m_IsPrefabParent: 0
   m_IsExploded: 1
+--- !u!1 &2138639766
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2138639767}
+  - 54: {fileID: 2138639768}
+  m_Layer: 0
+  m_Name: Jnt_16
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2138639767
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2138639766}
+  m_LocalRotation: {x: .00126161275, y: -.000378498284, z: -4.69792576e-05, w: .999999106}
+  m_LocalPosition: {x: -.00261216611, y: -.00867271796, z: -4.81747246}
+  m_LocalScale: {x: 1.00000012, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 15
+--- !u!54 &2138639768
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2138639766}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2140601922
 GameObject:
   m_ObjectHideFlags: 0
@@ -21956,6 +21913,49 @@ Transform:
   - {fileID: 1799525923}
   m_Father: {fileID: 1022965762}
   m_RootOrder: 0
+--- !u!1 &2145028026
+GameObject:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 2145028027}
+  - 54: {fileID: 2145028028}
+  m_Layer: 0
+  m_Name: Jnt_36
+  m_TagString: Rope
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2145028027
+Transform:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2145028026}
+  m_LocalRotation: {x: .145855412, y: .591710746, z: -.033970993, w: .792117834}
+  m_LocalPosition: {x: -.900141239, y: .82452935, z: -9.98041821}
+  m_LocalScale: {x: .99999994, y: .99999994, z: .99999994}
+  m_Children: []
+  m_Father: {fileID: 1626694029}
+  m_RootOrder: 35
+--- !u!54 &2145028028
+Rigidbody:
+  m_ObjectHideFlags: 9
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2145028026}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: .200000003
+  m_AngularDrag: .0500000007
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
 --- !u!1 &2146050703
 GameObject:
   m_ObjectHideFlags: 0

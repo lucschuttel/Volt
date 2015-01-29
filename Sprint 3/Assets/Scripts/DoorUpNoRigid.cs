@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class DoorUp : MonoBehaviour {
+public class DoorUpNoRigid : MonoBehaviour {
 
 	public float openingHeight;
 	private float startPosition, range;
@@ -17,12 +17,14 @@ public class DoorUp : MonoBehaviour {
 	public void Update(){
 
 		if (ButtonPress.doorOpen > 0) {
-			door2.rigidbody.useGravity = false;
+			//door2.rigidbody.useGravity = false;
 			if (door2.transform.position.y < startPosition + openingHeight) {
 				door2.transform.Translate (Vector3.up * Time.deltaTime);
 			}
 		} else {
-			door2.rigidbody.useGravity = true;
+			if (door2.transform.position.y > startPosition + openingHeight) {
+				door2.transform.Translate (Vector3.down * 3 * Time.deltaTime);
+			}
 		}
 	}
 }
